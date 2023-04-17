@@ -20,7 +20,7 @@
 }
 
 .home-page {
-  /*overflow: auto;*/
+  overflow: hidden;
   background-color: #FDF3E7;
   margin-top: 42px; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -37,13 +37,13 @@
   color: black;
   font-family:Oswald;
   font-size: 40px;
-  width: 250px;
+  width: 100%;
 }
 .home-page h2 {
   color: black;
   font-family:Oswald;
   font-size: 20px;
-  width: 250px;
+  width: 100%;
 }
 .smaller-image {
   position: relative;
@@ -100,7 +100,7 @@ max-width:600px;
 }
 .contact-page h3{
   color: Black;
-  text-align: center;
+  text-align: left;
   font-size: 40px;
   font-family: Oswald;
   padding: 10px;
