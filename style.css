@@ -98,11 +98,11 @@ max-width:600px;
   /*overflow: hidden;*/
   background-color: moccasin;
   width: 100%; /* Full width */
-  text-align: center;
+  text-align: left;
 }
 .contact-page h3{
   color: Black;
-  text-align: center;
+  text-align: left;
   font-size: 40px;
   font-family: Oswald;
   padding: 10px;
@@ -122,10 +122,10 @@ background: moccasin;
 background-color: white;
 }
 .social-page {
-overflow: hidden;
+  overflow: hidden;
   background-color: #EFEFEF;
   width: 100%; /* Full width */
-  text-align: center;
+  text-align: left;
 }
 .box-4{
 width:100%;
@@ -142,8 +142,18 @@ color: black;
 padding: 0px;
 text-align: center;
 }
+
+.profiles {
+  background: lightpink
+  color: lightblue;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  text-align: center;
+}
+
 .btn {
-margin-left: 125px;
+margin-left: 30px;
     display: block;
     height: 80px;
     width: 80px;
